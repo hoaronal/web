@@ -100,7 +100,7 @@ public class ApiTempleteImpl implements ApiTemplate {
     }
 
     public String buildFullURI(String path){
-        return URL_LOCAL + path;
+        return URL_REMOTE + path;
     }
 
 
